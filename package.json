@@ -1,0 +1,13 @@
+{
+  "name": "jmeter-mcp-server",
+  "version": "1.0.0",
+  "description": "JMeter-style MCP Server for API testing with Claude Code",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "jmeter-mcp-server": "./src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
